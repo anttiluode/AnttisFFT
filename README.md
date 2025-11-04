@@ -2,6 +2,8 @@
 
 ![fft](./anttisfft.png)
 
+![fft2](./anttisfft2.png)
+
 This is a simple Python script that provides a real-time, intuitive visualization of a webcam feed's frequency components.
 
 It displays two panels side-by-side:
