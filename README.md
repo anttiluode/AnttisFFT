@@ -4,6 +4,8 @@
 
 ![fft2](./anttisfft2.png)
 
+![fft3](./anttisfft3.png)
+
 This is a simple Python script that provides a real-time, intuitive visualization of a webcam feed's frequency components.
 
 It displays two panels side-by-side:
@@ -31,6 +33,8 @@ Repeating Horizontal Patterns: (Like window blinds) These will create distinct, 
 # Image2Spectra ..
 
 Is the static counterpart to the live Phase Field Surfer. While the Surfer takes a constant stream from the webcam and shows how the spatial frequencies evolve in real time, Image2Spectra freezes a single frame and dissects it methodically. It converts each row of pixels into its own frequency “bucket line,” letting you see how textures, edges, and gradients compose the image’s inner harmonics. Together, the two tools form a matched pair: one lets you observe motion and interference live in k-space, the other lets you study the still structure of an image’s frequency DNA, with the option to rebuild it perfectly through the inverse process.
+
+The version with spectral delete allows you to wipe spectral data and the ifft image will get corruption in real time. 
 
 # Requirements
 
