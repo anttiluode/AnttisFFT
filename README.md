@@ -1,4 +1,4 @@
-# Visual Cochlea FFT Viewer (Anttis-FFT)
+# Visual Cochlea FFT Viewer (Anttis-FFT) (And image2spectra)
 
 ![fft](./anttisfft.png)
 
