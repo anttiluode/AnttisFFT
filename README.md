@@ -28,6 +28,10 @@ Sharp Vertical Edges: These are high-frequency. They will create bright "sparkle
 
 Repeating Horizontal Patterns: (Like window blinds) These will create distinct, bright spikes at a specific frequency (a specific x-position) on the map.
 
+# Image2Spectra ..
+
+Is the static counterpart to the live Phase Field Surfer. While the Surfer takes a constant stream from the webcam and shows how the spatial frequencies evolve in real time, Image2Spectra freezes a single frame and dissects it methodically. It converts each row of pixels into its own frequency “bucket line,” letting you see how textures, edges, and gradients compose the image’s inner harmonics. Together, the two tools form a matched pair: one lets you observe motion and interference live in k-space, the other lets you study the still structure of an image’s frequency DNA, with the option to rebuild it perfectly through the inverse process.
+
 # Requirements
 
 OpenCV (opencv-python)
